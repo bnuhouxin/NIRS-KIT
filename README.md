@@ -1,9 +1,9 @@
-# MRI Parameters Report for Siemens
+# NIRS-KIT: A MATLAB toolbox for both task and resting-state fNIRS data analysis Images
 
 
-![](https://img.shields.io/badge/updata-2023/08/15-orange.svg)
+![](https://img.shields.io/badge/updata-2023/11/23-orange.svg)
 ![](https://img.shields.io/badge/version-v3.0-brightgreen.svg)
-![](https://img.shields.io/badge/release-2019/11/15-green.svg)
+![](https://img.shields.io/badge/release-2019/11/24-green.svg)
 ![](https://img.shields.io/badge/licese-GPLV3.0-blue.svg)
 ------
 
@@ -53,4 +53,4 @@ The [MRI_Parameters_Report]() is now at the beginning of the MATLAB search path.
   Then about one minute later, all the works will be done. The output information will be printed on the GUI interface, and a mat file that contains all the output information will saved to your predefined file path.
 
 
-<img src="https://github.com/bnuhouxin/imgstore/NIRS-KIT/nirs-kit-main.png" width="500" />
+<img src="https://github.com/bnuhouxin/NIRS-KIT/NIRS_KIT_Main.jpg" width="500" />
