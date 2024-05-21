@@ -1,0 +1,1 @@
+function v=jshuffle(v);n=length(v);i=randperm(n);v=v(i);

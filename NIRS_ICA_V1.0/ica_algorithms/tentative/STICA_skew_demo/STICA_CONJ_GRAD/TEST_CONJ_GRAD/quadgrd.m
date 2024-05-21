@@ -1,0 +1,1 @@
+function g = quadgrd(x)g = [100; 1].*x;

@@ -1,0 +1,12 @@
+Version,11,,,
+EXT Filename,Sub01.csv,,,
+Date,,,,
+Records,3,,,
+Data Folder,,,,
+.OMM Filename,NAME_20120201_154630.OMM,,,
+.PROT Filename,test.pro,,,
+Gain Pattern Filename,,,,
+Start Time,Protocol Type,Pre.Rest,Task,Pos.Rest
+00:00.0,1,45,45,0
+00:14.8,1,45,45,0
+07:15.1,1,45,45,0

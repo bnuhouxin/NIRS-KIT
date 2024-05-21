@@ -1,0 +1,1 @@
+function x=is_col_vec(x);[n one]=size(x);if one~=1	warning('is_col_vec: row vec converted.');	x=x';end;

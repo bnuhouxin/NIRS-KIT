@@ -1,0 +1,1 @@
+function mv0=mv_remove_border(mv,b);% function mv0=mv_remove_border(mv,b);% Remove border of width b from each image in mv.[nr nc n]=size(mv);nnr = nr-2*b;nnc = nc-2*b;mv0 = zeros(nnr,nnc,n);for i=1:n	image = mv(:,:,i);	image = image(b+1:nr-b,b+1:nc-b);	mv0(:,:,i) = image;	% imagesc(image); drawnow;end

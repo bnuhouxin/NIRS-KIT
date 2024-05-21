@@ -1,0 +1,1 @@
+function show4images(im,nr,nc,f,s1);%fprintf('Images ...\n');jfig(f); subplot(2, 2, 1); pnshow( reshape(im(:,1), nr, nc) ); title([s1 ' 1']);subplot(2, 2, 2); pnshow( reshape(im(:,2), nr, nc) ); title([s1 ' 2']);subplot(2, 2, 3); pnshow( reshape(im(:,3), nr, nc) ); title([s1 ' 3']);subplot(2, 2, 4); pnshow( reshape(im(:,4), nr, nc) ); title([s1 ' 4']);drawnow;

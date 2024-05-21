@@ -1,0 +1,1 @@
+function yn=is_odd(a)yn=rem(a,2);

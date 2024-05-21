@@ -1,0 +1,11 @@
+ID,X,Y,Z,Label,Probability
+T1,-60.2935,-16.4691,-36.9329,L.inferior_temporal_gyrus,0.78399
+T2,-59.6378,-12.8249,-37.6258,L.inferior_temporal_gyrus,0.68648
+T3,-59.247,-9.1327,-37.4984,L.inferior_temporal_gyrus,0.50717
+R1,-58.1971,-4.8259,-37.2791,L.middle_temporal_gyrus,0.63137
+R2,-57.8411,-0.36518,-35.949,L.middle_temporal_gyrus,0.81094
+R3,-56.7545,3.8434,-35.0863,L.middle_temporal_gyrus,0.88935
+Ch1,-55.4509,7.4258,-35.2418,L.middle_temporal_gyrus,0.84686
+Ch2,-54.0592,10.305,-34.5887,L.middle_temporal_gyrus,0.80124
+Ch3,-51.7848,13.5607,-34.4451,L.middle_temporal_gyrus,0.62957
+Ch4,-49.2095,18.0188,-31.9889,L.superior_temporal_gyrus,0.50186

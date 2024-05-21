@@ -1,0 +1,1 @@
+function jset_bg_color(c);% Set background colour of figure and axis.% If nargin==0 then default to black.if nargin==0	set(gca,'Color','k');	set(gcf,'Color','k');else	set(gca,'Color',c);	set(gcf,'Color',c);end;

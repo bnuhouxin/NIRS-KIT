@@ -1,0 +1,1 @@
+function [xmin, xmax]=jminmax(array,str);% See jprint_minmax.m.% If nargout==0 then prints result.xmin = jmin(array);xmax = jmax(array);if nargin>1 fprintf([str '...\n']); end;if nargout==0fprintf('             min = %.6f\n             max = %.6f\n',xmin,xmax);end;

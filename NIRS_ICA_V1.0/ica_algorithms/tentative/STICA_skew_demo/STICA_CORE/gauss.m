@@ -1,0 +1,1 @@
+function y=gauss(x,variance);y = exp(-x.^2/variance) / 1.7725; % 1.7725=sqrt(pi);

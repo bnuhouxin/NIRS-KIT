@@ -1,0 +1,1 @@
+function v = jvar(x);% Find variance of vector x.% Test: x=randn(1,5000); jvar(x); % Answer is close to one.% This is not a clean way to do var - it gives round-off errors.n = length(x);m = sum(x)/n;x = x-m;v = dot(x,x)/n;

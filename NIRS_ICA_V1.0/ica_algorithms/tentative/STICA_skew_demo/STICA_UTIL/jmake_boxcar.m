@@ -1,0 +1,1 @@
+function res=jmake_boxcar(nperiods,period);% jmake_boxcar(2,20);res=[];b=[ones(1,period/2)]; % -ones(1,period/2)];k=1;for p=1:nperiods*2	res = [res b*k];	k = -k;end;% plot(res);

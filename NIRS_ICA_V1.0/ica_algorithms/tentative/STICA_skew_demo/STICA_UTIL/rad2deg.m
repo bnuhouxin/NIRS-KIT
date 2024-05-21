@@ -1,0 +1,1 @@
+function d=rad2deg(r);% Given input r in radians, returns output d in degrees.d = r*57.29577951;

@@ -1,0 +1,1 @@
+a = rand(1,10);a=jgauss(a,1);figure(1);s=-2;si=0.5;hold off;plot(a,'r'); hold on;for i=1:100 	s=s+si;	b=jshift_wrapR(a,s); 	plot(b); hold on;	s	pause; end; 

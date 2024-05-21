@@ -1,0 +1,1 @@
+function count=jfwrite(fp,v,str);if nargin<3	str='uchar';end;v=v(:);count=fwrite(fp,v,str);len=length(v);if count~= len	fprintf('jfwrite: count=%d, should be %d\n',count,len);	error('jfwrite');end;

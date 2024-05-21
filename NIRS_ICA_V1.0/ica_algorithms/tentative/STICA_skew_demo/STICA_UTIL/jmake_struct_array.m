@@ -1,0 +1,1 @@
+function jmake_struct_array(fieldnames)actions = struct('Vol_num',cell(num_actions,1),'Action_time',cell(num_actions,1));

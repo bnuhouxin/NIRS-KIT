@@ -1,0 +1,1 @@
+function r=jcorr(x,y);% find corr coeff of x,y.% e.g. a=rand(1,5);jcorr(a,a)% a=rand(1,5);b=a+randn(1,5);jcorr(a,b)c=cov(x,y);c=c(1,2);xstd = std(x);ystd = std(y);r = c/(xstd*ystd);

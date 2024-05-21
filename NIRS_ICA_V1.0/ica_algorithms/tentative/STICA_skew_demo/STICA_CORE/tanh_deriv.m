@@ -1,0 +1,1 @@
+function [y, t] = tanh_deriv(x);t=tanh(x);y = 1-t.^2;

@@ -1,0 +1,1 @@
+function [gcore, gscale, gsbias, gtbias] = get_grad_parts(g,k);gcore=g(1:k*k);imin=k*k+1;imax=k*(k+1);gscale=g(imin:imax);imin=imax+1;imax=k*(k+2);gsbias=g(imin:imax);imin=imax+1;imax=k*(k+3);gtbias=g(imin:imax);

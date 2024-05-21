@@ -1,0 +1,1 @@
+function  m=jremove_col(m,col_num);if isstr(col_num)	if col_num=='last'		[r col_num]=size(m);	else		error('jremove_col');	end;end;m = m(:,1:col_num-1);

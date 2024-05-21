@@ -1,0 +1,1 @@
+function L=get_light_pos;L = light;pos=get(L,'Position');   

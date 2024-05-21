@@ -1,0 +1,1 @@
+function [g] = basicg_skew(w,data);global global_data;if nargin<2	data=global_data;end;[f, g, y] = basicfg_skew(w,data);

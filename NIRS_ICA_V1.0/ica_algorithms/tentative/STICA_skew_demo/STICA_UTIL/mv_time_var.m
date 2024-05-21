@@ -1,0 +1,1 @@
+function v=mv_time_var(mv,r,c);% Get variance of pixel r c over all time.[nr nc n]=size(mv);timeline = mv(r,c,:);s=std(timeline);v=s*s;

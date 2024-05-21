@@ -1,0 +1,1 @@
+function key=jwhichkey;% Returns string containg char.key='-1';	if CharAvail 		key = GetChar; 	end;

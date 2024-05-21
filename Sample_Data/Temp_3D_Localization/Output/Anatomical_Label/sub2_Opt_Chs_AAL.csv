@@ -1,0 +1,11 @@
+ID,X,Y,Z,Label,Probability
+T1,-60.2935,-16.4691,-36.9329,Temporal_Inf_L,1
+T2,-59.6378,-12.8249,-37.6258,Temporal_Inf_L,1
+T3,-59.247,-9.1327,-37.4984,Temporal_Inf_L,1
+R1,-58.1971,-4.8259,-37.2791,Temporal_Inf_L,0.92982
+R2,-57.8411,-0.36518,-35.949,Temporal_Inf_L,0.60526
+R3,-56.7545,3.8434,-35.0863,Temporal_Mid_L,0.50877
+Ch1,-55.4509,7.4258,-35.2418,Temporal_Pole_Mid_L,0.57018
+Ch2,-54.0592,10.305,-34.5887,Temporal_Pole_Mid_L,0.87719
+Ch3,-51.7848,13.5607,-34.4451,Temporal_Pole_Mid_L,0.9386
+Ch4,-49.2095,18.0188,-31.9889,Temporal_Pole_Mid_L,0.86842

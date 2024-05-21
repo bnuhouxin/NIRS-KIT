@@ -1,0 +1,1 @@
+function jdraw_vertical_line(xval);ylim=get(gca,'YLim');y=ylim(1):ylim(2);x=ones(size(y))*xval;hold on; plot(x,y,'k:'); hold off;grid off;

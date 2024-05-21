@@ -1,0 +1,182 @@
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L superior frontal gyrus'
+'R superior frontal gyrus'
+'L middle frontal gyrus'
+'R middle frontal gyrus'
+'L inferior frontal gyrus'
+'R inferior frontal gyrus'
+'L precentral gyrus'
+'R precentral gyrus'
+'L middle orbitofrontal gyrus'
+'R middle orbitofrontal gyrus'
+'L lateral orbitofrontal gyrus'
+'R lateral orbitofrontal gyrus'
+'L gyrus rectus'
+'R gyrus rectus'
+[]
+[]
+[]
+[]
+[]
+[]
+'L postcentral gyrus'
+'R postcentral gyrus'
+'L superior parietal gyrus'
+'R superior parietal gyrus'
+'L supramarginal gyrus'
+'R supramarginal gyrus'
+'L angular gyrus'
+'R angular gyrus'
+'L precuneus'
+'R precuneus'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L superior occipital gyrus'
+'R superior occipital gyrus'
+'L middle occipital gyrus'
+'R middle occipital gyrus'
+'L inferior occipital gyrus'
+'R inferior occipital gyrus'
+'L cuneus'
+'R cuneus'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L superior temporal gyrus'
+'R superior temporal gyrus'
+'L middle temporal gyrus'
+'R middle temporal gyrus'
+'L inferior temporal gyrus'
+'R inferior temporal gyrus'
+'L parahippocampal gyrus'
+'R parahippocampal gyrus'
+'L lingual gyrus'
+'R lingual gyrus'
+'L fusiform gyrus'
+'R fusiform gyrus'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L insular cortex'
+'R insular cortex'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L cingulate gyrus'
+'R cingulate gyrus'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'L caudate'
+'R caudate'
+'L putamen'
+'R putamen'
+'L hippocampus'
+'R hippocampus'
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+'cerebellum'
+'brainstem'

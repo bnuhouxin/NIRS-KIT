@@ -1,0 +1,11 @@
+ID,X,Y,Z,Label,Probability
+T1,-60.2935,-16.4691,-36.9329,Area 20 每 Inferior temporal gyrus,1
+T2,-59.6378,-12.8249,-37.6258,Area 20 每 Inferior temporal gyrus,1
+T3,-59.247,-9.1327,-37.4984,Area 20 每 Inferior temporal gyrus,0.96522
+R1,-58.1971,-4.8259,-37.2791,Area 20 每 Inferior temporal gyrus,0.61739
+R2,-57.8411,-0.36518,-35.949,Area 21 每 Middle temporal gyrus,0.82609
+R3,-56.7545,3.8434,-35.0863,Area 21 每 Middle temporal gyrus,0.95652
+Ch1,-55.4509,7.4258,-35.2418,Area 21 每 Middle temporal gyrus,0.8
+Ch2,-54.0592,10.305,-34.5887,Area 38 每 Temporopolar area ,0.64348
+Ch3,-51.7848,13.5607,-34.4451,Area 38 每 Temporopolar area ,0.91304
+Ch4,-49.2095,18.0188,-31.9889,Area 38 每 Temporopolar area ,0.91304

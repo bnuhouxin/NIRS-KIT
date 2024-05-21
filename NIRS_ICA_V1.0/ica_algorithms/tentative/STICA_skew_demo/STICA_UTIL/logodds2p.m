@@ -1,0 +1,1 @@
+function p=logodds2p(lodds)% Use this to find theta (binomial coeef p) for given value of lodds.% lodds = log(theta/(1-theta));p=exp(lodds)/(1+exp(lodds));
