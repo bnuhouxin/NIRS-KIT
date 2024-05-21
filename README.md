@@ -53,4 +53,4 @@ The [MRI_Parameters_Report]() is now at the beginning of the MATLAB search path.
   Then about one minute later, all the works will be done. The output information will be printed on the GUI interface, and a mat file that contains all the output information will saved to your predefined file path.
 
 
-<img src="https://github.com/bnuhouxin/MRI_Parameter_Report/blob/master/exam.png" width="500" />
+<img src="https://github.com/bnuhouxin/imgstore/NIRS-KIT/nirs-kit-main.png" width="500" />
