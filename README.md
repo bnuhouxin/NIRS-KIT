@@ -7,6 +7,8 @@
 ![](https://img.shields.io/badge/licese-GPLV3.0-blue.svg)
 ------
 
+<img src="https://github.com/bnuhouxin/MRI_Parameter_Report/blob/master/exam.png" width="500" />
+
 ## [Introduction:]
 **NIRS-KIT is a MATLAB toolbox for both task and resting-state fNIRS data analysis with a user-friendly GUI. This toolbox covers the entire analysis pipeline, including data preparation, quality check, preprocessing, individual-level analysis, group-level statistics, and result visualization.**
 
