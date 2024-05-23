@@ -7,11 +7,10 @@
 ![](https://img.shields.io/badge/licese-GPLV3.0-blue.svg)
 ------
 
-<img src="https://github.com/bnuhouxin/imgstore/blob/main/nirs-kit-img/nirs-kit-main.jpg" width="500" />
+<img src="https://github.com/bnuhouxin/imgstore/blob/main/nirs-kit-img/nirs-kit-main.png" width="500" /><img src="https://github.com/bnuhouxin/imgstore/blob/main/nirs-kit-img/resultvis.png" width="500" />
 
-![Artifacts Available](https://github.com/OpenXiangShan/XiangShan-doc/raw/main/publications/images/artifacts_available_dl.jpg)
-![Artifacts Evaluated — Functional](https://github.com/OpenXiangShan/XiangShan-doc/raw/main/publications/images/artifacts_evaluated_functional_dl.jpg)
-![Results Reproduced](https://github.com/OpenXiangShan/XiangShan-doc/raw/main/publications/images/results_reproduced_dl.jpg)
+<img src="https://github.com/bnuhouxin/imgstore/blob/main/nirs-kit-img/dataviewer.png" width="500" />
+
 
 ## [Introduction:]
 **NIRS-KIT is a MATLAB toolbox for both task and resting-state fNIRS data analysis with a user-friendly GUI. This toolbox covers the entire analysis pipeline, including data preparation, quality check, preprocessing, individual-level analysis, group-level statistics, and result visualization.**
