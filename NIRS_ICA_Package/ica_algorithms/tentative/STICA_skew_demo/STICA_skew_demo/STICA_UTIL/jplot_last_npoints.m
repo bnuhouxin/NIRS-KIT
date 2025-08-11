@@ -1,0 +1,1 @@
+function jplot_last_npoints(hs,Nmax);N=length(hs);if N>Nmax	hs=hs(N-Nmax+1:N);end;plot(hs);

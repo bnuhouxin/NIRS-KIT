@@ -1,0 +1,1 @@
+function b=jshuffle_cols(a);[r c]=size(a);newc = randperm(c);b=a(:,newc);

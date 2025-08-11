@@ -1,0 +1,1 @@
+function jprint_seeds();fprintf('Seed = %d Nseed = %d\n',rand('seed'),randn('seed'));

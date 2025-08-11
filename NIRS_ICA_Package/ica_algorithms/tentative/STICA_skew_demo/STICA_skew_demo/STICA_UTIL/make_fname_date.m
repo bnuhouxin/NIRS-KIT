@@ -1,0 +1,1 @@
+function f=make_fname_date(stem,leaf);% e.g. make_fname_date('mv_','.b');d=jdate;f = [stem d leaf];

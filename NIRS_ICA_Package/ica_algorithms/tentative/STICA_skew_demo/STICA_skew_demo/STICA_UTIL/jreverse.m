@@ -1,0 +1,1 @@
+function v0=jreverse(v1);% If v1 is a col or row vector, reverse elements.% v0 has same format as v1.[r c]=size(v1);% If v1 is a col vec make it a row vec for fliplr.if c==1	v0=fliplr(v1')';	v0=v0';else	v0=fliplr(v1);end;

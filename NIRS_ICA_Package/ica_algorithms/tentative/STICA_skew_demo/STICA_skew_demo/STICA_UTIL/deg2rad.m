@@ -1,0 +1,1 @@
+function r=deg2rad(d);r=d/57.29577951;

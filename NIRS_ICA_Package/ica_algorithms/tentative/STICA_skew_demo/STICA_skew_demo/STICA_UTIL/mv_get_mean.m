@@ -1,0 +1,1 @@
+function im2=mv_get_mean(im1)% Get mean image.[ni, nj, nt] = size(im1); npix = ni*nj;im2 = reshape(im1, ni*nj, nt);m = mean(im2');im2 = m;im2 = reshape(im2, ni, nj);

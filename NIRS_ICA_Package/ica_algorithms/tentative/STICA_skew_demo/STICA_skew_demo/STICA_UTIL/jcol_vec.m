@@ -1,0 +1,1 @@
+function v=jcol_vec(n);% Col vecs are standard.v = zeros(n,1);

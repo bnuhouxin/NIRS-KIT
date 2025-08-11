@@ -1,0 +1,1 @@
+function d=jcorr_many(a,b);% Find corr between every col in a with every col in b.% e.g. jcorr_many(Vjim,Desjim(:,1:4))c=[a b];[nr nca]=size(a);[nr ncb]=size(b);cc=corrcoef(c);d=cc(1:nca,nca+1:nca+ncb);

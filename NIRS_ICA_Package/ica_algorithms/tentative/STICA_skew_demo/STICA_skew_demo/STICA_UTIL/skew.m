@@ -1,0 +1,1 @@
+function s=skew(x);% n =length(x);m=mean(x);x=x - m;x3=sum(x.^3); x3=x3/n;x2=sum(x.^2); x2=x2/n;d=x2.*sqrt(x2);s = x3 ./  d;

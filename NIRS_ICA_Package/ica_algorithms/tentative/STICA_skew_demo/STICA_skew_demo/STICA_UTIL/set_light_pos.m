@@ -1,0 +1,1 @@
+function set_light_pos(pos);% Set position of light source to direction% given by 3-component vector, pos.L = light;% do get(L) to see params.set(L,'Position',pos);

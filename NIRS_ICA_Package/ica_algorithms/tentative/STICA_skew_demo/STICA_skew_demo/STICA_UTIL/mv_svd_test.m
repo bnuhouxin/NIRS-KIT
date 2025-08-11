@@ -1,0 +1,1 @@
+nr=10; nc=nr; nt=5;images = rand(nr,nc,nt);K=2;[U,D,V]  = mv_svd(images,K);

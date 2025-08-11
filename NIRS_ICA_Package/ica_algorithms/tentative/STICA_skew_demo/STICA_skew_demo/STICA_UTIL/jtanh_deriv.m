@@ -1,0 +1,1 @@
+function y_deriv = jtanh_deriv(y);% Get deriv of y=tanh(x) wrt x.% Note that y=tanh(x) is input argument.% if abs(y)>1 error('jtanh_deriv: y>1'); end;y_deriv = 1-y.*y;% y_deriv = sech(atanh(y))^2;

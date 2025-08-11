@@ -1,0 +1,1 @@
+function fig(n);figure(n);

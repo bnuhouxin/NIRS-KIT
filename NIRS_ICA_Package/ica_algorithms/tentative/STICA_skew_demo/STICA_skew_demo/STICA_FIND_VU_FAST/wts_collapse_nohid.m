@@ -1,0 +1,1 @@
+function W = wts_collapse_nohid(W1);W=[W1(:)];

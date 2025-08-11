@@ -1,0 +1,1 @@
+function [new_W1, new_W2] = wts_uncollapse_nohid(W);global W1 W2;s1=size(W1);n1=length(W1(:));new_W1=reshape(W(1:n1),s1);W1 = new_W1;

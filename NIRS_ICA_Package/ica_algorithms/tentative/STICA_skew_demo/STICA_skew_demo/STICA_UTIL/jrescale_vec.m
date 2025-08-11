@@ -1,0 +1,1 @@
+function v1=jrescale_vec(v0,new_min,new_max);v1=jnormalise_range(v0,new_min,new_max);

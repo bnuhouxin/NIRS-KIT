@@ -1,0 +1,1 @@
+function v=mv_space_var(mv,t);% Get variance of image at time t.[nr nc n]=size(mv);image = mv(:,:,t);image = image(:);s=std(image);v=s*s;

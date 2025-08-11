@@ -1,0 +1,1 @@
+function jaddpath(p);eval(['addpath ' p]);

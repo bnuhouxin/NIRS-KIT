@@ -1,0 +1,1 @@
+% test consistency of% function-gradient evaluationm = 2; n = 2; k = 3;data = [];data.alpha = 0.5;data.P = randn(m, k);data.Q = randn(n, k);w = randn(k*k+k, 1);[g, ge] = gradtest('sticafg', w, data, sqrt(eps));

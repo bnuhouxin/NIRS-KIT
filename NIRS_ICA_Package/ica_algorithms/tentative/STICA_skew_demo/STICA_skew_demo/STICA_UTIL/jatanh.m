@@ -1,0 +1,1 @@
+function x=jatanh(y);if abs(y)==1	x=sign(y)*999999;elsearg = (1+y)/(1-y);x = log(arg)/2.0 ;end;

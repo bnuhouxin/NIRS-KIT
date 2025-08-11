@@ -1,0 +1,1 @@
+function a=remove_border(a,b);[nr nc]=size(a);nnr = nr-2*b;nnc = nc-2*b;a = a(b:nr-b,b:nc-b);

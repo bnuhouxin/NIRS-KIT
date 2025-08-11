@@ -1,0 +1,1 @@
+function [g, ge] = gradtest(fungrd, x, data, del)[f, g] = feval(fungrd, x, data);n = length(x);fprintf('\n');for i = 1:n    x1 = x; x2 = x;    x1(i) = x1(i)-del/2; f1 = feval(fungrd, x1, data);    x2(i) = x2(i)+del/2; f2 = feval(fungrd, x2, data);    ge(i) = (f2-f1)/del;    fprintf('%16.8f %16.8f %16.8f %16.8f %16.8g\n', f1, f2, g(i), ge(i), g(i)-ge(i));end

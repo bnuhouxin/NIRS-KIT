@@ -1,0 +1,1 @@
+function plot_data_in_pc(data,pcs);% Each data vector is a column of data matrix.% Each pc is a column of pcs.% Plot projection onto principal components.mv2=data;clear data;xy = pcs'*mv2;clf;plot(xy(1,:),xy(2,:),'.');title('plot data in pc: Projection onto principal components'); axis equal; grid on;

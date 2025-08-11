@@ -1,0 +1,1 @@
+function v=get_struct_vec_vals(s,slot);% Slot = string with name of slot.n=length(s);v=zeros(n,1);for i=1:n	v(i)=eval(['s(i).' slot]);end;

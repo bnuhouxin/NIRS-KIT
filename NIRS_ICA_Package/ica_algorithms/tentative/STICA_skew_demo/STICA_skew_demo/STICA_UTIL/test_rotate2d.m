@@ -1,0 +1,1 @@
+n=5;a=randn(2,n);x=a(1,:);y=a(2,:);f(1);plot(x,y,'*');pr;k=0;for i=1:10	[xx yy]=rotate2d(x,y,k);	jfig(2);plot(xx,yy,'*'); hold on;	drawnow;	k=k+pi/20;	waitsecs(0.2);end;hold off;

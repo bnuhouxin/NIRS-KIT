@@ -1,0 +1,1 @@
+% read_buchel_data;% clear all;jcd('Jims_working_disc:Jims_Matlab5_files:ICA:STICA_demo_NIPS2000:STICA_NIPS_ADDD_ONS:');load res_UDV;% neig=10;
