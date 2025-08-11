@@ -1,1 +1,0 @@
-function xmin = jmin(array)xmin = min(min(array));

@@ -1,1 +1,0 @@
-17/5/99FIND_VU_FAST:This dir is used to find F=logV/U without recomputing shortterm and long term means.

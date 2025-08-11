@@ -1,1 +1,0 @@
-function X=swap_cols(X,a,b);c1=X(:,a);c2=X(:,b);X(:,b)=c1;X(:,a)=c2;% cader!2900

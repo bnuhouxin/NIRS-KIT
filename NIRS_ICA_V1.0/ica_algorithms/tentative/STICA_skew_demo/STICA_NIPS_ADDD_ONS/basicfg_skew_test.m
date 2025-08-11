@@ -1,1 +1,0 @@
-ndata = 100; k = 2;X = rand(ndata, k);A = [1 1; 1 -1];X = X*A;data.P=X;data.X = [X ones(size(X, 1), 1)];data.a = 4*ones(1, k);data.b = 1*ones(1, k);W0 = 0.01*randn(k+1, k); w0 = W0(:);num_funevals=0;warning off;gradtest('basicfg_skew', w0, data, sqrt(eps));

@@ -1,1 +1,0 @@
-function d=jdate;d=datestr(now);ind=find(d==' ');d(ind)='_';ind=find(d=='-');d(ind)='_';ind=find(d==':');d(ind)='';% Remove _ind = find(d=='_'); d(ind)='';% Remove 1999 and seconds.d=[d(1:5) d(10:13)];% eval(['save ' jdate ' a']);

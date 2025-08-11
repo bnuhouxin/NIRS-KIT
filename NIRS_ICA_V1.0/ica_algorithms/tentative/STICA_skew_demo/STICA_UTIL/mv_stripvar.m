@@ -1,1 +1,0 @@
-function im2=mv_stripvar(im1);% Make variance in time and space == 1.% im1  = input ni x nj x nt array% type = 's'  remove space mean%        't'  remove time mean%        'st' remove both%% im2  = output ni x nj x nt array[ni, nj, nt] = size(im1); npix = ni*nj*nt;im2 = im1 / std(im1(:));im2 = reshape(im2, ni, nj, nt);

@@ -1,1 +1,0 @@
-function v1=jnormalise_range(v0,xmin,xmax);% Normalise elements to be in range 0-->1% unless new range specified by xmin and xmax.[lo hi]=jminmax(v0);v0=(v0-lo);range=hi-lo;v1=v0/range;if nargin==3	new_range=xmax-xmin;	v1 = v1*new_range;	v1 = v1+xmin;end;

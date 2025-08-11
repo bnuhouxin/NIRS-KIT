@@ -1,1 +1,0 @@
-function err = maxcorr(E)% function err = maxcorr(E)%% error metric for matrix close%% E = input square matrix%% err = max correlation induced by ES = E'*E;s = sqrt(diag(S));corr = S./(s*s');corr = triu(corr, 1);err = max(abs(corr(:)));

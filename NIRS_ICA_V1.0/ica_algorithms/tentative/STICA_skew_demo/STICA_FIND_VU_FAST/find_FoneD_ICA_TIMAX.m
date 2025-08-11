@@ -1,1 +1,0 @@
-function F = find_F_fast(W1D,Ux,Vx,num_op_units,num_mixtures);W = reshape(W1D,num_op_units,num_mixtures);U = W*Ux*W';V = W*Vx*W';VU = log(V+eps) - log(U+eps);F=VU;% Minimise.F=-F;

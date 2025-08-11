@@ -1,1 +1,0 @@
-cd('Jim_Stones_G3a:APPS:Matlab5:Jims_Matlab5_files:PSYCHOPHYSICS:MAKE_EXPTS:RT_IQ:');cd

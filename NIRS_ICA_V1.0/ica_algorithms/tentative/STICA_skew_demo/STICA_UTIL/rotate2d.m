@@ -1,1 +1,0 @@
-function [xx,yy]=rotate2d(x,y,theta)c=cos(theta);s=sin(theta);xx = x.*c+y.*s;yy = -x.*s+y.*c;

@@ -1,1 +1,0 @@
-function fname = jmake_fname(f_stem, t, f_leaf, dir)% fname = jmake_fname(direct, f_stem, t, f_leaf)%% utility function for making file namesif t < 100	if t < 10		fname = [f_stem, '00', num2str(t), f_leaf];	else		fname = [f_stem, '0', num2str(t), f_leaf];	endelse	fname = [f_stem, num2str(t), f_leaf];endif nargin==4	fname = [dir fname];end;

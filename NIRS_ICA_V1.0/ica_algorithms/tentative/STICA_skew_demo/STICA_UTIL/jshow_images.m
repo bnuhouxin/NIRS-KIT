@@ -1,1 +1,0 @@
-function jshow_images(images,nr,nc);% Show images as array.% Each image is column of images.pcs=images.[len neig] = size(pcs);aa=sqrt(neig);if rem(aa,1)==0 aa=aa; bb=aa; else aa=1;bb=neig; end;for i = 1:neig 	subplot(aa, bb, i);	im1=reshape(pcs(:, i), ni, nj);   	imagesc(im1); colormap(gray);   	axis off; axis square; end

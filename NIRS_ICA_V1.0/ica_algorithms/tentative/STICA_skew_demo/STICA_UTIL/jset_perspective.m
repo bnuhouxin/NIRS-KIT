@@ -1,1 +1,0 @@
- set(gca,'Projection','perspective');  % See also jset_view_angle.m

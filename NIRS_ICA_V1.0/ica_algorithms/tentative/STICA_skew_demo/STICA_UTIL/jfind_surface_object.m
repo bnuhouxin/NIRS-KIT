@@ -1,1 +1,0 @@
-function h=jfind_surface_object;% Find surface object in current axes.h = findobj(gca,'type','surface');

@@ -1,1 +1,0 @@
-function yesno=jexists(a);% RETURN 1 IF A EXISTS AS A VARIABLE,% ELSE RETURN 0.% A must be input as a string.% e.g. b=5; jexists('b');if exist(a)==1	yesno=1;else	yesno=0;end;

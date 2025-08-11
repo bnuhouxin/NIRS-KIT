@@ -1,1 +1,0 @@
-function mv=mv_resample(mv,nig,njg)% RESIZE IMAGES IN MOVIE[nr nc n]=size(mv);im0=zeros(nig,njg,n);for i=1:n	im0(:,:,i)=imresize(mv(:,:,i),[nig njg]);end;mv=im0;

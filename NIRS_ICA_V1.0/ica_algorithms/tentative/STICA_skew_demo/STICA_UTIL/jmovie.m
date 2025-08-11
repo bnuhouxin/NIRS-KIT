@@ -1,1 +1,0 @@
-function jmovie(mv,n,f1,f2);N=1;if nargin>1	N=n;end;[a nframes]=size(mv);if nargin<4	f1=1;	f2=nframes;end;movie(mv(:,f1:f2),N);

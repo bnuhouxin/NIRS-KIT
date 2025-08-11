@@ -1,1 +1,0 @@
-cd('Jims_working_disc:Jims_Matlab5_files:PSYCHOPHYSICS:ANALYSE_FLASH_BANG:');cd

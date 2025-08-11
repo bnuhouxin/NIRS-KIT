@@ -1,1 +1,0 @@
-function fidw=jfopen(fname,rw);fidw = fopen(fname, rw);if(fidw == -1) 	cd	fprintf('Cannot open file=%s.\n',fname); 	error('See message above.');end;

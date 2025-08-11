@@ -1,1 +1,0 @@
-function jplot2vecs(v1,v2,gname);	if length(v1)~=length(v2)	error('jplot2vecs: v1_len =/= v2_len');end;hold off;plot(v1,'y');hold on;plot(v2,'r--');hold off;grid on;if nargin==3	title(gname);end;

@@ -1,1 +1,0 @@
-function jset_yticklabel(label);if nargin==0	set(gca,'YTickLabel',[])else	%set(gca,'XLim',[0 8]);	set(gca,'YTickLabel',label)end;

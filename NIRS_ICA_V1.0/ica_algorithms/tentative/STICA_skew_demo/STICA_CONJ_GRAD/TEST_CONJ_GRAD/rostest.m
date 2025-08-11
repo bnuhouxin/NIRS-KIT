@@ -1,1 +1,0 @@
-w0 = [-1.2; 1];conjgrad_jvs(w0,  'rosfun', 'rosgrd', [], 10);

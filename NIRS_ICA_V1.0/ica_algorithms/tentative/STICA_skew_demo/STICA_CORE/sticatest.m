@@ -1,1 +1,0 @@
-% sticatest;m = 200;n = 200;k = 3;% run st_ica on exact data% and histogram results% exact dataS = randk(m, k, 0.2);T = randk(n, k, 0.2);% mixed dataA = randn(k, k);P = S*A;Q = T*inv(A');% st-icaalpha = 0.1;[V, d, S1, T1] = stica(P, Q, alpha);% error (max correlation metric)E = A*Verr = maxcorr(E)

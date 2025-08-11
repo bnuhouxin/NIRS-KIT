@@ -1,1 +1,0 @@
-function jshow_pcs(ics,nr,nc);% One ic per column.% Show each image as subplot.[len neig] = size(ics);aa=sqrt(neig);if rem(aa,1)==0 aa=aa; bb=aa; else aa=1;bb=neig; end;for i = 1:neig 	subplot(aa, bb, i);	im1=reshape(ics(:, i), nr, nc);   	imagesc(im1); colormap(gray); axis off; axis square; 	s=['INDEPENDENT component ' num2str(i)];	title(s);end

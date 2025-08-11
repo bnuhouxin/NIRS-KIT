@@ -1,1 +1,0 @@
-cd('Jims_working_disc:Jims_Matlab5_files:FACTOR_ANALYSIS_NIKKI:FA_AUG99:FA_NIKKI_RESUB_aug99:');

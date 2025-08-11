@@ -1,1 +1,0 @@
-function xmax = jmax(array)xmax = max(array(:));

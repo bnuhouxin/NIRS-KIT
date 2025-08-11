@@ -1,1 +1,0 @@
-function v=jrow_vec(n);v = zeros(1,n);

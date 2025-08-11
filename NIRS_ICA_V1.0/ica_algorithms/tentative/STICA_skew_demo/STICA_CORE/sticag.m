@@ -1,1 +1,0 @@
-function g = sticag(w, data)[f, g] = sticafg(w, data);

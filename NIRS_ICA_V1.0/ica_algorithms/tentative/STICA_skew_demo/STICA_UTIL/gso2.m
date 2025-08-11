@@ -1,1 +1,0 @@
-function U=gso2(col_vecs);% GSO for 2 vecs![n num_vecs]=size(col_vecs);U=zeros(n,num_vecs);u1 = col_vecs(:,1);u1 = u1/norm(u1);U(:,1)=u1;%for i=2:num_vecs	cvec=col_vecs(:,2);	u2 = cvec - dot(cvec,u1)*u1;%end;  U = [u1,u2];

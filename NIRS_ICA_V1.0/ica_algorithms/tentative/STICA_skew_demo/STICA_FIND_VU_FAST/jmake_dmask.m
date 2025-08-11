@@ -1,1 +1,0 @@
-function [mask, mask_len]= jmake_dmask(h,n,max_mask_len);[mask mask_len]= jmake_mask(h,n,max_mask_len);%fprintf('jmake_dmask: Mask integral = %f\n',sum(mask));lambda = half_life2lambda(h);% mask=zeros(size(mask));mask(mask_len-1)=-1;mask(mask_len)=1;B = sum(mask); mask = mask/B;mask(mask_len) = mask(mask_len)-1; 

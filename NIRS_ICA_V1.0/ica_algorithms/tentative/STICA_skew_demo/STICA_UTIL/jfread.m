@@ -1,1 +1,0 @@
-function a=jfread(fp,n,str);if nargin<3	str='uchar';end;[a count]=fread(fp,n,str);if count~=n	str	count	n	error('jfread');end;

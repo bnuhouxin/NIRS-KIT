@@ -1,1 +1,0 @@
-function y=jzermean_unitvar(x);x=x-mean(x);v = var(x);y = x./v;

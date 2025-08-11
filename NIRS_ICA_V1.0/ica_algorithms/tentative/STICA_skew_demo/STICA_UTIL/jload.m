@@ -1,1 +1,0 @@
-function jload(fname);s=['load ' eval('fname')]s% eval(s);a

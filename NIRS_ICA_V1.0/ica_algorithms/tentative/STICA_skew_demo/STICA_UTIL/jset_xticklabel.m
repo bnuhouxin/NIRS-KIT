@@ -1,1 +1,0 @@
-function jset_xticklabel(label);if nargin==0	set(gca,'XTickLabel',[])else	%set(gca,'XLim',[0 8]);	set(gca,'XTick',label);	set(gca,'XTickLabel',label)end;

@@ -1,1 +1,0 @@
-function checkgrd(x, fun, grd, df)f = feval(fun, x);g1 = feval(grd, x);dx = df/norm(g1);n = length(x); z = zeros(n, 1); g2 = z;for i = 1:n   e = z; e(i) = 1;   g2(i) = (feval(fun, x+dx/2*e)-feval(fun, x-dx/2*e))/dx;end[g1 g2]norm(g1-g2, 1)

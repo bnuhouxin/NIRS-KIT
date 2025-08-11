@@ -1,1 +1,0 @@
-c=corr(1:cnc-3,cnr-2:cnr-1)lc=max(abs(c(:,1)))rc=max(abs(c(:,2)))des=zm_uvar_cols(des);ictl=zm_uvar_cols(T1(:,12));ictr=zm_uvar_cols(T1(:,7));figureclfsubplot(2,1,1)plot(-ictl,'k')hold onplot(des(:,1),'g--')title('r = 0.42')jset_yticklabelsubplot(2,1,2)plot(ictr,'k')hold onplot(des(:,2),'g--')jset_yticklabeltitle('r = 0.49')%print pc -depsc

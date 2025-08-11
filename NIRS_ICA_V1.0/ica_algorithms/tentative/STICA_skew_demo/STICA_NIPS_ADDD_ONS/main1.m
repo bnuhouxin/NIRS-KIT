@@ -1,1 +1,0 @@
-%clear all;a=reshape(Ujim,[128 128 10 10]);for i=1:10 % eignumfor j=4 % slice	jfig(1); clf;	psd(Vjim(:,i)); 	title(int2str(i));	fprintf('i=%d\n',i); 	jfig(2);	plot(Vjim(:,i));	title('eigensequence');	jfig(3);	imagesc(a(:,:,j,i));grid; title('eigenimage');pr; end;end;jcorr_many(Desjim(:,1:4),Vjim)'a=Desjim(:,1);b=Vjim(:,10);jfig(4);plot(a);jcorr(a,b)

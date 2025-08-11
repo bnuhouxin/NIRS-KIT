@@ -1,1 +1,0 @@
-function len=jvec_len(v);len = sqrt(dot(v,v));

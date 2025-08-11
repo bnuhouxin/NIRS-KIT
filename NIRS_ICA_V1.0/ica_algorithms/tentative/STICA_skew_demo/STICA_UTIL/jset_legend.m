@@ -1,1 +1,0 @@
-function jset_legend(strs,colours);% e.g. rgb== jset_legend(['a'; 'b'],[[0 0 1];[1 1 1]]);[l o]=legend('Control','Experimental');set(o(1,1),'Color',[1 0 0])   

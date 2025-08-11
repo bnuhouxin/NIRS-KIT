@@ -1,1 +1,0 @@
-function old_dir=jcd(dir_name);global old_dir;old_dir = cd;eval(['cd ' dir_name]);

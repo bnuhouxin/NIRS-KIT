@@ -1,1 +1,0 @@
-function y = quadfun(x)y = 0.5*(100*x(1)^2+x(2));

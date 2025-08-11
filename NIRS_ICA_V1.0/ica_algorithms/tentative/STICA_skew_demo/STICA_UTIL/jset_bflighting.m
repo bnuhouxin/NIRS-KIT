@@ -1,1 +1,0 @@
-function jset_bflighting()% Setting to 'lit' removes edge effects on 3D solid objects.% See 3-29 of graphics manual.v=version;if str2num(v(1))>4h = findobj('type','surface');set(h,'BackFaceLighting','lit');%set(h,'BackFaceLighting','reverselit');end;

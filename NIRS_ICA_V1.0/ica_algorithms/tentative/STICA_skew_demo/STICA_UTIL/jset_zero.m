@@ -1,1 +1,0 @@
-function m=jset_zero(m);m = m .* 0;

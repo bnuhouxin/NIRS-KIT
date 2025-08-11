@@ -1,1 +1,0 @@
-function yn=is_even(a)yn = ~rem(a,2);

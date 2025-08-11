@@ -1,1 +1,0 @@
-function print_structs(s)n=length(s);for i=1:n	fprintf('Struct %d\n',i);	s(i)   pause;   %c=pr('Press q to quit');	%if c=='q' break; end;end;fprintf('print_structs finished\n');

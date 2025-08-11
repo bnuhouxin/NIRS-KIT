@@ -1,1 +1,0 @@
-function y=jmake_sin(period,np);N=period*np;x = linspace(0,np*pi,N);y=sin(x);f(10); plot(y);

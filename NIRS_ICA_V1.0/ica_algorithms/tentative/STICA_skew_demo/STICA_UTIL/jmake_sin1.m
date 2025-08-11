@@ -1,1 +1,0 @@
-function y=jmake_sin1(nperiods,nsamples);x=linspace(0,2*pi*nperiods,nsamples);y=sin(x);

@@ -1,1 +1,0 @@
-function s=spatial_freq2len(fr,d)% Converts spatial frequency (in cycles per degree) at a% given distance d to a length per cycle at that distance.% % fr=cycles per degree (not radian).% 1/fr = deg/cycle.% eg s=spatial_freq2len(10,0.57) % 10 cyc/deg at 57cm =>0.1mm/cycle.% Convert to radians.rad=57.296;degrees_per_cycle = 1/fr;s = d*tan(degrees_per_cycle/rad);

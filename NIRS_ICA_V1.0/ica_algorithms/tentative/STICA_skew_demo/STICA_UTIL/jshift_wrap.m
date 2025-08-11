@@ -1,1 +1,0 @@
-function v0=jshift_wrap(v,shift)% v should be a row vector.[r c]=size(v);if r>1 & c==1 v=v'; end;len = length(v);neg=0;if shift<0 shift = len+shift; end;% To get -ve == left shift.shift = len-shift;temp = v(1:shift);temp = [ v(shift+1:len)'; temp'];v0 = temp';if r>1 & c==1 v0=v0'; end;

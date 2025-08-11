@@ -1,1 +1,0 @@
-function ang=jangle(a,b,deg);ang = dot(a,b)/(norm(a)*norm(b));ang = acos(ang);if nargin>2	if deg==1		ang=ang*180/pi;	end;end;

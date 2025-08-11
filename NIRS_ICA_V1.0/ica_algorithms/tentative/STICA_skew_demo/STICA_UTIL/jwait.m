@@ -1,1 +1,0 @@
-function jwait(sec)% Dont use this on mac as Psych tbx is better.t1=cputime;t2=cputime;while (t2-t1)<sec	t2=cputime;end;

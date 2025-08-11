@@ -1,1 +1,0 @@
-function mask=make_gauss_mask(sd,num_sds);% Make Gaussian mask for smoothing.% ip = rand(1,20);% Set num_sds=4;N = 2*num_sds*sd + 1;x = linspace(-num_sds*sd,num_sds*sd,N);  mask = exp(-(x.*x)/(2*sd*sd));mask = mask/sum(mask);

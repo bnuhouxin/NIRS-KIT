@@ -1,1 +1,0 @@
-function mv_show(mv,frame_step)[ni, nj, nt] = size(mv); if nargin==1for i=1:nt	imagesc(mv(:,:,i)); drawnow;end;elsefor i=1:frame_step:nt	fprintf('Frame number %d\n',i);	imagesc(mv(:,:,i)); drawnow;	pr;end;end;

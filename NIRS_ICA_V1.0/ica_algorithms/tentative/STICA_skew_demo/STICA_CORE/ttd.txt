@@ -1,1 +1,0 @@
-20/4/99Change code to deal with low-kurtosis.

@@ -1,1 +1,0 @@
-function f = sticaf(w, data)global num_funevals;global mindat;[f, g] = sticafg(w, data);% if rem(num_funevals,-100)==0% fprintf('%.6f \n',f);% mindat.B% end;

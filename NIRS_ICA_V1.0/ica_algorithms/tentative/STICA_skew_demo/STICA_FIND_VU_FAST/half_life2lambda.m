@@ -1,1 +1,0 @@
-function lambda = half_life2lambda(h);lambda = 2^(-1/h);

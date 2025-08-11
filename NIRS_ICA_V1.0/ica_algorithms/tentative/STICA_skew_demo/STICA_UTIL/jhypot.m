@@ -1,1 +1,0 @@
-function len=jhypot(x,y);len = sqrt(x.*x + y.*y);

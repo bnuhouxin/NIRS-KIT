@@ -1,1 +1,0 @@
-function jset_title_size(s);t=get(gca,'Title');set(t,'FontSize',s);

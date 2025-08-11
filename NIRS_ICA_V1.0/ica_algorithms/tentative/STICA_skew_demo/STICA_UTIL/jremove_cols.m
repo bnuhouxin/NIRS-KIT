@@ -1,1 +1,0 @@
-function all=jremove_cols(all,cs);

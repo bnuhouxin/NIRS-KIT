@@ -1,1 +1,0 @@
-function s = make_fname(stem,input_arg_seed,leaf,tail);% e.g. make_fname('mv_',3,'.b');% op = mv_003.bnum = int2str(input_arg_seed);s = stem;if input_arg_seed<10 	s = [s '0']; end;if input_arg_seed<100 	s = [s '0' ]; end;s = [s num]; if nargin>3 s = [s tail]; end;s = [s leaf];mv_fname = s;mv_fname;

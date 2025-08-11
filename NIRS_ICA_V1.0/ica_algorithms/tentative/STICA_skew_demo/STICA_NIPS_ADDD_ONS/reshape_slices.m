@@ -1,1 +1,0 @@
-function x=reshape_slices(s,mode);	% Make one image per col.	[nt nr nc]=size(s);	N=nr*nc;	x=zeros(N,nt);	for t=1:nt		x(:,t)=s(t,:)';	end;if mode=='t'	x=x';end;

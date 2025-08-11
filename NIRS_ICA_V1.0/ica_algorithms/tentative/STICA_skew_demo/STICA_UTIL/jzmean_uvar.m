@@ -1,1 +1,0 @@
-function v = jzmean_uvar(v);v = v-mean(v);v = v/sqrt(jvar(v));% check % jvar(v)

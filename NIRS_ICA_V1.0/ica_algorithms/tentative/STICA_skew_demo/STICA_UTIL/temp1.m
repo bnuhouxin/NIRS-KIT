@@ -1,1 +1,0 @@
-function b=temp1();b=rand;if b<0.5 b=temp1; end;

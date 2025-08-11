@@ -1,1 +1,0 @@
-function x = zm_uvar_cols(x);[nr nc]=size(x);for c=1:nc	col = x(:,c);	m = mean(col);	col = col-m;	col = col/std(col,1); % 1=> Div by N not N-1.	x(:,c)=col;end;
