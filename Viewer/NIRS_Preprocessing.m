@@ -952,4 +952,4 @@ function NIRS_ICA_Button_Callback(hObject, eventdata, handles)
 % hObject    handle to NIRS_ICA_Button (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-NIRS_ICA;
+NIRS_ICA_v1;
